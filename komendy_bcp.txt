@@ -1,0 +1,4 @@
+		
+bcp customers.dbo.customers_400444 format nul -S "LAPTOP-SOCQ6KNA" -T-c -f "C:\Users\acer\Desktop\Geoinformatyka\Bazy danych przestrzennych II\lab10\PROCESSED\FormatFile.fmt" -t, -T  
+
+bcp customers.dbo.customers_400444 in "C:\Users\acer\Desktop\Geoinformatyka\Bazy danych przestrzennych II\lab10\PROCESSED\CUSTOMERS_400444.csv" -S "LAPTOP-SOCQ6KNA" -T -f "C:\Users\acer\Desktop\Geoinformatyka\Bazy danych przestrzennych II\lab10\PROCESSED\FormatFile.fmt" -t, -F 2
